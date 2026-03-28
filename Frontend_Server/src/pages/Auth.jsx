@@ -21,7 +21,7 @@ const Auth = () => {
     try {
       const endpoint = isLogin 
         ? 'http://localhost:5000/api/auth/login' 
-        : 'http://localhost:5000/api/auth/register';
+        : 'http://localhost:5000/api/auth/signup';
       
       const payload = isLogin 
         ? { email, password } 
